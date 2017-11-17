@@ -149,43 +149,18 @@
             android:text="      "
             android:textColor="@android:color/white"
             android:textSize="15sp" />
-        <TextView
-            android:id="@+id/forgot_pass"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/b_login"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="29dp"
-            android:text="Forgot Password?"
-            android:textColor="@android:color/white"
-            android:textSize="15sp" />
     </LinearLayout>
-
-    <CheckBox
-        android:id="@+id/check_login_with_pin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sign In with your PIN"
-        android:checked="false"
-        android:textColor="#fff"
-        android:buttonTint="@color/check"
-        android:layout_below="@+id/linearLayout6"
-        android:layout_alignLeft="@+id/linearLayout6"
-        android:layout_alignStart="@+id/linearLayout6" />
-        android:layout_alignStart="@+id/linearLayout6" />
 
     <Button
         android:id="@+id/b_login"
-        android:layout_width="match_parent"
+        android:layout_width="900dp"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout6"
+        android:layout_alignStart="@+id/linearLayout6"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_marginTop="12dp"
         android:background="#379ee9"
         android:text="Sign In"
         android:textAllCaps="false"
-        android:textColor="@android:color/white"
-        android:layout_marginBottom="13dp"
-        android:layout_above="@+id/linearLayout2"
-        android:layout_alignLeft="@+id/check_login_with_pin"
-        android:layout_alignStart="@+id/check_login_with_pin"
-        android:layout_alignRight="@+id/linearLayout6"
-        android:layout_alignEnd="@+id/linearLayout6" />
+        android:textColor="@android:color/white" />
 </RelativeLayout>

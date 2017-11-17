@@ -30,7 +30,7 @@ public class LoginActivity extends Activity  {
 
     AlertDialog alertDialog;
     Button login;
-    TextView forgot_pass,register;
+    TextView register;
     EditText username_et, password_et;
     String username,password;
     String type ="login";
@@ -42,7 +42,6 @@ public class LoginActivity extends Activity  {
         setContentView(R.layout.activity_login);
         databaseHelper = new DatabaseHelper(LoginActivity.this);
         login = (Button) findViewById(R.id.b_login);
-        forgot_pass = (TextView) findViewById(R.id.forgot_pass);
         register = (TextView) findViewById(R.id.register);
         username_et = (EditText) findViewById(R.id.et_username);
         password_et = (EditText) findViewById(R.id.et_password);
